@@ -1,0 +1,75 @@
+
+body {
+  margin: 0;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+.app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  overflow-y: auto;
+}
+
+.table {
+	width: 100%;
+	margin-bottom: 20px;
+	border: 1px solid #dddddd;
+	border-collapse: collapse;
+}
+.table th {
+	font-weight: bold;
+	padding: 5px;
+	background: #efefef;
+	border: 1px solid #dddddd;
+}
+.table td {
+	border: 1px solid #dddddd;
+	padding: 5px;
+
+}
+
+.table .selected {
+  background: #25e3f1;
+}
+
+button {
+  margin: 0 5px;
+  border: #25e3f1 1px solid;
+  background: #3c6062;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  min-width: 44px;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.row-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.item-text {
+  flex-grow: 4;
+}
+
+input[type="text"] {
+  padding: 5px;
+  border: 1px solid #dddddd;
+  border-radius: 5px;
+  margin: 0 5px;
+}
